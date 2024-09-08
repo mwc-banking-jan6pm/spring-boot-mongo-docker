@@ -1,1 +1,3 @@
-.jenkins*
+.JenkinsfileDockerSwarm
+.docker-compose.yml
+.initScript.sh
