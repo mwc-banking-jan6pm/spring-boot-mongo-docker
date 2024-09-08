@@ -38,3 +38,8 @@ node_modules/
 *.log
 /bin/
 /target/
+
+.JenkinsfileDockerSwarm
+.docker-compose.yml
+.initScript.sh
+.springBootMongo-PrivateRepo.yml
