@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: prashanthnagonde/spring-boot-mongo:1
+        image: prashanthnagonde/spring-boot-mongo:IMAGE_TAG
         resources:
           requests:
             cpu: 200m
@@ -26,7 +26,7 @@ spec:
         - containerPort: 8080
         env:
         - name: MONGO_DB_HOSTNAME
-          value:  mongosvc
+          value: mongosvc
         - name: MONGO_DB_USERNAME
           value: kichha
         - name: MONGO_DB_PASSWORD
